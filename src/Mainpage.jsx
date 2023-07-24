@@ -5,10 +5,10 @@ const Mainpage = ({setIndex,currentQuote,index}) => {
 
     return (
 
-        <main className="flex-col h-screen w-screen">
+        <main className="flex-col h-screen w-screen xs:overflow-x-hidden">
 
             <section className="flex fixed top-0 items-center lg:justify-between xs:justify-center md:justify-center border-b border-gray h-24 w-full overflow-hidden z-10 bg-white xs:justify-center">
-                <a href="https://www.brandingbusiness.com" className="pl-10 xs:pt-4 xs:pl-0 ">
+                <a href="https://www.brandingbusiness.com" className="pl-10 xs:pt-4 xs:pl-0 xs:pr-3 ">
                     <svg xmlns="http://www.w3.org/2000/svg" width="370" height="57" viewBox="0 0 370 57">
                     <title>Branding Business Logo</title>
                     <g fill="none">
@@ -28,19 +28,19 @@ const Mainpage = ({setIndex,currentQuote,index}) => {
                 </div>
             </section>
 
-            <section className="flex items-center w-screen background-change justify-start h-5/6 mt-24 xs:w-[470px] ">
-                <h1 className="text-7xl text-white pl-10 google-font font-bold xs:text-4xl">We create business momentum through the inspirational power of your brand.</h1>
+            <section className="flex items-center w-screen background-change justify-start h-5/6 mt-24 xs:w-screen ">
+                <h1 className="text-7xl text-white pl-10 google-font font-bold xs:pl-0 xs:text-6xl">We create business momentum through the inspirational power of your brand.</h1>
             </section>
 
-            <section className="flex flex-col items-center w-screen md:w-screen justify-start pt-16 gap-16 z-1 xs:w-[470px]">
+            <section className="flex flex-col items-center w-screen md:w-screen justify-start pt-16 gap-16 z-1 xs:w-screen">
                     <div className="flex flex-col gap-16 w-4/6 xs:w-full">
-                        <h1 className="text-5xl text-left pl-6 relative border-l-[10px] border-black right-8 pt-0 w-full font-bold ml-10 xs:text-2xl xs:text-center xs:pl-0">BrandingBusiness is a specialist B2B brand strategy and creative agency.</h1>
+                        <h1 className="text-5xl text-left pl-6 relative border-l-[10px] border-black right-8 pt-0 w-full font-bold ml-10 xs:text-2xl xs:pl-0 xs:pl-0 xs:border-0">BrandingBusiness is a specialist B2B brand strategy and creative agency.</h1>
                         <p className="text-5xl text-left w-full font-bold tracking-normal pl-10 google-font xs:text-2xl xs-text-center">For more than 25 years, we have helped disruptors and industry leaders to grow, flourish, and maintain business momentum in a world of dynamic change.</p>
                     </div>
                     <button className="border-2 lg:text-lg xs:text-sm border-pink pt-2.5 pb-2.5 pr-16 pl-16 font-bold hover:bg-pink">ABOUT US</button>
             </section>
 
-            <section className="flex flex-row justify-center w-full pt-24 gap-12 xs:flex xs:flex-col xs:items-center xs:w-[470px]">
+            <section className="flex flex-row justify-center w-full pt-24 gap-12 xs:flex xs:flex-col xs:items-center xs:w-screen">
                     <img className='w-2/5 h-2/5 xs:h-96 xs:w-11/12' src="https://e1.nmcdn.io/brandingbusiness/wp-content/uploads/2020/12/Callout_Image_1040x740_BB25YearsBook-R_Fnl.jpg/v:1-width:800-height:572-fit:cover/Callout_Image_1040x740_BB25YearsBook-R_Fnl.jpg?signature=b09ecc1d"></img>
                     <div className="flex flex-col items-start justify-center w-2/5 gap-10 xs:items-center xs:w-10/12">
                         <p className="w-full font-normal text-xl leading-8 xs:text-xl">As we celebrated our 25th year in business, we asked our team to prepare a list of 25 learnings to share with our readers, clients and partners—the inherent truths we’ve come to understand and respect about the world of B2B branding. We hope you take from it some knowledge that can support your professional journey.</p>
@@ -48,7 +48,7 @@ const Mainpage = ({setIndex,currentQuote,index}) => {
                     </div>
             </section>
 
-            <section className="flex flex-col items-center w-full pt-28 gap-12 xs:w-[470px]">
+            <section className="flex flex-col items-center w-full pt-28 gap-12 xs:w-screen">
                 <h1 className="lg:text-[5rem] google-font font-bold xs:text-4xl md:text-3xl">LATEST B2B INSIGHTS</h1>
                 <Fade>
                 <div className="grid grid-cols-3 grid-rows-4 grid-rows-[0.5fr] w-10/12 gap-x-6 gap-y-2">
@@ -69,7 +69,7 @@ const Mainpage = ({setIndex,currentQuote,index}) => {
                 </Fade>
             </section>
 
-            <section className="flex flex-col items-center pt-28 gap-12 w-full xs:w-[470px]">
+            <section className="flex flex-col items-center pt-28 gap-12 w-full xs:w-screen">
                 <h1 className="google-font font-bold lg:text-[5rem] xs:text-4xl md:text-4xl">OUR WORK</h1>
                 <Fade>
                 <div className="flex flex-row justify-center w-11/12 gap-12 xs:flex-col xs:items-center xs:w-full">
@@ -98,7 +98,7 @@ const Mainpage = ({setIndex,currentQuote,index}) => {
                 <button className="border-2 border-pink w-fit px-16 py-3 font-bold hover:bg-pink">VIEW ALL CASE STUDIES</button>
                 </Fade>
             </section>
-            <section className="flex flex-col items-center bg-gray pt-24 pb-24 gap-8 mt-28 xs:w-[470px]">
+            <section className="flex flex-col items-center bg-gray pt-24 pb-24 gap-8 mt-28 xs:w-screen">
                 <h1 className="lg:text-[5rem] font-bold google-font xs:text-4xl md:text-5xl">BRANDING SERVICES</h1>
                 <Fade>
                 <div className="flex flex-col w-7/12 gap-8 items-left xs:w-10/12">
@@ -116,7 +116,7 @@ const Mainpage = ({setIndex,currentQuote,index}) => {
                 </Fade>
             </section>
 
-            <section className="flex flex-col justify-center w-full pt-24 items-center gap-8 xs:w-[470px]">
+            <section className="flex flex-col justify-center w-full pt-24 items-center gap-8 xs:w-screen">
                 <div className="flex flex-col items-left w-7/12 gap-4 border-l-[10px] border-pink pl-8 overflow-hidden xs:w-full xs:pl-4 ">
                     <p className="text-5xl text-pink font-bold overflow-auto h-[250px] xs:text-3xl">“{currentQuote.quote}”</p>
                     <p className="text-xl text-pink font-medium">{currentQuote.author}</p>
@@ -133,7 +133,7 @@ const Mainpage = ({setIndex,currentQuote,index}) => {
                 <div className="h-2 w-[10%] bg-black mt-8 xs:w-[30%]"></div>
             </section>
 
-            <section className="flex flex-row justify-around w-full pt-24 pb-20 border-b border-gray xs:flex-col xs:w-[470px] xs:items-center xs:gap-6">
+            <section className="flex flex-row justify-around w-full pt-24 pb-20 border-b border-gray xs:flex-col xs:w-screen xs:items-center xs:gap-6">
                 <div className="flex flex-col items-left gap-6 w-2/5 font-bold xs:w-10/12">
                     <h1 className="lg:text-7xl font-bold google-font leading-tight xs:text-4xl md:text-5xl">WE CAN HELP WITH YOUR BRANDING CHALLENGE</h1>
                     <p className="font-medium text-xl">Send us a message or call us at <span className="underline text-pink">+1 949 273 6330</span></p>
@@ -182,11 +182,11 @@ const Mainpage = ({setIndex,currentQuote,index}) => {
                         <input type="checkbox"/>
                         <p>Sign me up!</p>
                     </div>
-                    <button className="font-bold mt-4 w-11/12 text-lg px-16 py-3 border-2 border-pink hover:bg-pink">CONTACT US</button>
+                    <button className="font-bold mt-4 w-full text-lg px-16 py-3 border-2 border-pink hover:bg-pink">CONTACT US</button>
                 </form>
             </section>
 
-            <section className="flex flex-col items-center justify-start w-full pt-14 gap-6 pb-2 xs:w-[470px]">
+            <section className="flex flex-col items-center justify-start w-full pt-14 gap-6 pb-2 xs:w-screen">
                 <a href="https://www.brandingbusiness.com" className="w-10/12 flex justify-start" aria-label="Go to BrandingBusiness home page">
                     <svg xmlns="http://www.w3.org/2000/svg" width="56" height="40" viewBox="0 0 56 40">
                         <path fill="#1A1919" fill-rule="evenodd" d="M42.22 16.42h-9.8V7.68h9.8c2.91.01 4.69 1.86 4.7 4.4-.01 2.54-1.79 4.33-4.7 4.34zm0 15.9h-9.8v-8.74h9.8c2.91 0 4.69 1.86 4.7 4.4-.01 2.53-1.79 4.32-4.7 4.33zM18.7 16.41H8.9V7.68h9.8c2.9.01 4.69 1.86 4.7 4.4-.01 2.54-1.79 4.33-4.7 4.34zm0 15.9H8.9v-8.74h9.8c2.9 0 4.69 1.86 4.7 4.4-.01 2.53-1.79 4.32-4.7 4.33zM48.9 20c3.89-.8 7.1-4.26 7.1-9.47C56 5.02 51.98 0 44.14 0H0v40h44.14C51.98 40 56 34.98 56 29.47c0-5.2-3.21-8.66-7.1-9.47z"></path>
