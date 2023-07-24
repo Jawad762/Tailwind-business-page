@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Tailwind-business-page/static/css/main.5ba91347.css",
+    "main.js": "/Tailwind-business-page/static/js/main.d1dcb281.js",
+    "index.html": "/Tailwind-business-page/index.html",
+    "main.5ba91347.css.map": "/Tailwind-business-page/static/css/main.5ba91347.css.map",
+    "main.d1dcb281.js.map": "/Tailwind-business-page/static/js/main.d1dcb281.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ba91347.css",
+    "static/js/main.d1dcb281.js"
+  ]
+}
